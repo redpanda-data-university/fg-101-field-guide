@@ -51,7 +51,7 @@ services:
   # browse with Console.
   owl-shop:
     image: quay.io/cloudhut/owl-shop:latest
-    container-name: owl-shop
+    container_name: owl-shop
     environment:
       - SHOP_KAFKA_BROKERS=redpanda:29092
       - SHOP_KAFKA_TOPICREPLICATIONFACTOR=1
